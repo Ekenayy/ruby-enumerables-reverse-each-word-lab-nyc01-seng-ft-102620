@@ -20,3 +20,4 @@ sentence = sentence.split(" ")
 sentence.collect do |element|
 new_sentence = element.reverse.join(" ")
 end 
+end
