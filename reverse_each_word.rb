@@ -10,6 +10,6 @@ element.reverse
 new_sentence << element.reverse
 end
 
-new_sentence
+new_sentence.join(" ")
 
 end
