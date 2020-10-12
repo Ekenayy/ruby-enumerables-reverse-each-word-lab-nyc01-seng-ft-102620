@@ -3,10 +3,13 @@
 
 def reverse_each_word(sentence)
 sentence = sentence.split(" ")
-new sentence = " "
+new_sentence = " "
 
 sentence.each do |element|
 element.reverse
-end 
+new_sentence = element.reverse
+end
+
+new_sentence
 
 end
