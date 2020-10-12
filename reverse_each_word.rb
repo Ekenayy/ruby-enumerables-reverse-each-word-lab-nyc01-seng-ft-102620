@@ -4,6 +4,7 @@
 def reverse_each_word(sentence)
 sentence = sentence.split(" ")
 
-sentence.each do 
+sentence.each do |element|
+element.
 
 end
