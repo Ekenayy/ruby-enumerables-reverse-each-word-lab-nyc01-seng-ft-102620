@@ -6,6 +6,10 @@ sentence = sentence.split(" ")
 new sentence = " "
 
 sentence.each do |element|
-element.
+element.reverse
+new sentence = element.reverse
+end 
+
+new sentence
 
 end
