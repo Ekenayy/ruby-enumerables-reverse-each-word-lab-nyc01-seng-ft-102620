@@ -7,7 +7,7 @@ new sentence = " "
 
 sentence.each do |element|
 element.reverse
-new sentence = element.reverse
+new sentence == element.reverse
 end 
 
 new sentence
