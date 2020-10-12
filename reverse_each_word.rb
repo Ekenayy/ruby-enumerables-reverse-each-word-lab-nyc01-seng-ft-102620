@@ -18,4 +18,5 @@ def reverse_each_word(sentence)
 sentence = sentence.split(" ")
 
 sentence.collect do |element|
-element.reverse
+new_sentence = element.reverse.join(" ")
+end 
